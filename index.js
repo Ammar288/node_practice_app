@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 8000;
 const app = express()
 
 app.listen(PORT, async function() {
-    console.log(`Server up on port ${port}`)
+    console.log(`Server up on PORT ${PORT}`)
 })
 
 mongoose.connect(process.env.MONGODB_URL, {
