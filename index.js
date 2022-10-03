@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 8000;
 
 const app = express()
 
-app.listen(port, async function() {
+app.listen(PORT, async function() {
     console.log(`Server up on port ${port}`)
 })
 
